@@ -1,0 +1,49 @@
+:root {
+  --azulNetzun: #26a1ca;
+  --colorRojo: #ff0000;
+}
+
+
+
+
+body {
+  font-family: verdana;
+  background-color: var(--colorRojo);
+  font-size: 20pt;
+
+
+}
+
+
+p {
+  color: var(--azulNetzun);
+}
+
+#cajacolor {
+  background-color: var(--colorRojo);
+  border: solid 30px;
+
+}
+
+table,
+th,
+td {
+  border: 1px solid var(--azulNetzun);
+  border-collapse: collapse;
+  padding: 2%;
+  font-size: 25pt;
+
+
+}
+
+
+
+tr:nth-child(even) {
+  background-color: white;
+  color:
+}
+
+tr:hover {
+  background-color: var(--azulNetzun);
+  transition: all 0.5s;
+}

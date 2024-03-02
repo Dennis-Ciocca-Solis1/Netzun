@@ -1,0 +1,14 @@
+p {
+  background-color: aquamarine;
+  width: 200px;
+  height: 100px;
+  clear: both;
+  float: left;
+}
+
+a {
+  display: block;
+  background-color: aquamarine;
+  width: 200px;
+  height: 100px;
+}

@@ -1,0 +1,25 @@
+.img-item{
+   height: 200px;
+   /* width: max-content; */
+   width: 250px;      
+   cursor: pointer;
+
+}
+
+h5.text-center.mt-1{
+   cursor: pointer;
+}
+
+.btn-netzun{
+   background-color: #C5E1A5;
+   border-radius: #C5E1A5 ;
+   color: #444;
+}
+
+.bg-green-dark-netzun{
+   background-color: #C5E1A5;
+}
+
+.text-netzun-green{
+   color: #33691E;
+}

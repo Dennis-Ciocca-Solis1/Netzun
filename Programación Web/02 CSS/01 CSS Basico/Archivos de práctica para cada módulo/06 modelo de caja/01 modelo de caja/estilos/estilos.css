@@ -1,0 +1,10 @@
+h1,
+p,
+section {
+  color: white;
+  background-color: #497ABD;
+  width: 400px;
+  padding: 50px;
+  border: solid 10px #394353;
+  margin: 50px;
+}

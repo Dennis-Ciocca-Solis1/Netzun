@@ -1,0 +1,79 @@
+/*
+Colores azules de netzun
+azul claro: #3284EF;
+azul oscuro: #2768AF;
+*/
+
+/*//////PSEUDOCLASES DE ENLACES/////////*/
+
+a:link {
+  background-color: bisque;
+  color: #f0f;
+}
+
+a:visited {
+  color: #0ff;
+}
+
+a:hover {
+  color: #0f0;
+}
+
+a:active {
+  color: #000;
+}
+
+/* cambiar el color al arrastar para seleccionar las letras de la página web */
+::selection {
+  background-color: red;
+  color: white;
+}
+
+/* cambia la primera letra del párrafo */
+/* p::first-letter{
+  font-size: 60px;
+  color: red;
+} */
+
+/* cambia la primera línea del párrafo */
+/* p::first-line{
+  font-size: 60px;
+  color: blue;
+} */
+
+/*
+p::before {
+  content: "Al principio";
+  content: url(iconoNetzun.png);
+}
+*/
+
+/* p::after {
+  content: url(iconoNetzun.png);
+
+} */
+
+/*//////PSEUDOCLASES DE LISTAS/////////*/
+ul li {
+  background-color: #2768AF;
+  width: 50%;
+  padding: 3%;
+  /* border-radius: 20px 10px; */
+  /* border-radius: 20px 10px 20px; */
+
+}
+
+ul li:first-child {  
+  border-radius: 20px 20px 0px 0px;
+
+}
+
+ul li:last-child {
+  border-radius: 0px 0px 20px 20px;
+}
+
+/*//////PSEUDOCLASES PARA EXCLUIR/////////*/
+/*
+:not(p, html, body) {
+  background-color: blue;
+}*/

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login - Bootstrap</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Copiado desde Font Awesome -->
+  <script src="https://kit.fontawesome.com/5d1ae58bba.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- CREACIÓN DE UN LOGIN CON BOOTSTRAP -->
+  <div class="container h-100">
+    <div class="d-flex justify-content-center h-100">
+      <div class="login">
+        <div class="w-100 pt-5 mx-auto text-center">
+          <img src="img/logo_netzun.svg" alt="Logo Netzun">
+        </div>
+        <div class="d-flex justify-content-center">
+          <form class="mt-5">
+            <!-- Usuario -->
+            <div class="input-group mb-3">
+              <div class="input-group-append">
+                <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+              </div>
+              <input type="text" name="usuario" class="form-control input-user" placeholder="Usuario">
+            </div>
+
+            <!-- Contraseña -->
+            <div class="input-group">
+              <div class="input-group-append">
+                <span class="input-group-text"><i class="fa-solid fa-key"></i></span>
+              </div>
+              <input type="password" name="password" class="form-control input-user" placeholder="Contraseña">
+            </div>
+
+            <!-- Checkbox Recuérdame -->
+            <div class="form-group mt-3">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="checkRecuerdame">
+                <label class="custom-control-label" for="checkRecuerdame">Recuérdame</label>
+              </div>
+            </div>
+
+            <!-- Botón Registrar -->
+            <div class="row mt-4">
+              <div class="col">
+                <div class="d-flex">
+                  <button type="button" name="Registrar" class="btn btn-formulario-netzun">Registrar</button>
+                </div>
+              </div>
+
+              <!-- Botón Ingresar -->              
+                <div class="col">
+                  <div class="d-flex justify-content-end">
+                    <button type="button" name="Registrar" class="btn btn-formulario-netzun">Ingresar</button>
+                  </div>
+                </div>
+              
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- ***************************************************************************************************** -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

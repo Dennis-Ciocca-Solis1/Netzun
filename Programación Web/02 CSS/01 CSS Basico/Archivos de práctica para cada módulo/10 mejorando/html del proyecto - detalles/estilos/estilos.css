@@ -1,0 +1,467 @@
+/*
+Color naranja: #f78f26
+*/
+
+
+/*
+header,
+section,
+nav,
+main,
+article,
+div,
+ul,
+h1,
+footer {
+  border: solid 2px red;
+  box-sizing: border-box;
+}
+*/
+
+
+@font-face {
+  font-family: miFuente;
+  src: url(../fuentes/Montserrat-Medium.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: miFuente;
+  src: url(../fuentes/Montserrat-SemiBold.ttf);
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  color: #252525;
+  margin: 0;
+  font-family: miFuente, sans-serif;
+}
+
+
+/*//////envolutras/////////*/
+#envolturaGlobal {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+#envolturaPortafolio {
+  width: 100%;
+  /*  max-width: 1280px;*/
+  margin: 0 auto;
+}
+
+#envolturaproyectoDestacado {
+  width: 100%;
+  /*  max-width: 1280px;*/
+  margin: 0 auto;
+
+}
+
+
+
+#envolturaCabezote {
+  width: 100%;
+
+  margin: 0 auto;
+
+}
+
+#envolturamiPerfil {
+  width: 100%;
+  /*  max-width: 1280px;*/
+
+  margin: 0 auto;
+
+}
+
+#envolturaFooter {
+  width: 100%;
+  /*  max-width: 1280px;*/
+
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f78f26;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  color: #f78f26;
+}
+
+a:visited {
+  color: #975717;
+}
+
+a:hover {
+  background-color: #eeeeee;
+}
+
+a:active {
+  background-color: #dddddd;
+}
+
+
+
+h2 {
+  font-weight: 700;
+}
+
+
+/*inicio diagramación*/
+
+/*///////////Cabezote//////////////*/
+#cabezotePrincipal {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+  min-height: 670px;
+  background-image: url(../imagenes/fondos/fondoCabezote.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+
+}
+
+#barraSuperior {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#barraPrincipalNavegacion {
+  display: block;
+  clear: none;
+  float: left;
+
+  width: 60%;
+  min-height: 100px;
+}
+
+#barraPrincipalNavegacion ul {
+  list-style-type: none;
+
+}
+
+#barraPrincipalNavegacion ul li {
+  display: block;
+  clear: none;
+  float: left;
+
+}
+
+#barraPrincipalNavegacion ul li a:link,
+#barraPrincipalNavegacion ul li a:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #191919;
+  padding: 0px 15px;
+  height: 70px;
+  line-height: 70px;
+  transition: color 1s;
+
+}
+
+#barraPrincipalNavegacion ul li a:hover,
+#barraPrincipalNavegacion ul li a:active,
+#barraPrincipalNavegacion ul li#paginaActual a:link,
+#barraPrincipalNavegacion ul li#paginaActual a:visited {
+
+  color: #f78f26;
+  /*
+  transition: color 1s;
+  transition: background-color 2s;
+*/
+  transition: all 1s;
+}
+
+#barraSuperior h1 {
+  display: block;
+  clear: none;
+  float: right;
+
+  width: 40%;
+  min-height: 100px;
+
+
+}
+
+#bannerPrincipal {
+  display: block;
+  clear: both;
+  float: left;
+  width: 90%;
+  padding: 5%;
+  padding-top: 70px;
+}
+
+#bannerPrincipal h2 {
+  margin-top: 15%;
+}
+
+#bannerPrincipal p {
+  width: 50%;
+  line-height: 26pt;
+}
+
+
+/*///////////Contenido principal//////////////*/
+#contenidoPrincipal {
+  display: block;
+  clear: both;
+  float: left;
+
+  width: 100%;
+  min-height: 200px;
+
+}
+
+#miPerfil {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+  background-color: #443533;
+
+  color: #787878;
+}
+
+#miDescripcion {
+  display: block;
+  clear: none;
+  float: left;
+  width: 46%;
+  background-color: rgb(0, 0, 0);
+  padding: 0 0 0 2%;
+  background-image: url(../imagenes/fondos/fondoPerfil.png);
+  background-position: 0 150%;
+  background-size: 100% 50%;
+
+  background-repeat: repeat-x;
+
+
+}
+
+#miDescripcion #textosDescripcion {
+  width: 50%;
+  display: block;
+  clear: none;
+  float: left;
+}
+
+#miDescripcion h2 {
+  padding: 10% 0;
+
+}
+
+#miDescripcion p {
+  padding: 2% 0;
+  line-height: 2em;
+
+}
+
+#miDescripcion img {
+  display: block;
+  clear: none;
+  float: right;
+  width: 50%;
+}
+
+#habilidades {
+  display: block;
+  clear: none;
+  float: left;
+  width: 46%;
+  padding: 2%;
+  color: #fff;
+}
+
+#habilidades table,
+#habilidades table tr,
+#habilidades table th,
+#habilidades table td {
+  border-bottom: 1px solid #f78f26;
+  border-collapse: collapse;
+}
+
+#habilidades table {
+  width: 100%;
+  margin-top: 3%;
+}
+
+#habilidades table td {
+  padding: 3% 0;
+}
+
+#habilidades table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s;
+}
+
+#habilidades table tr:hover {
+  background-color: #f78f26;
+  transition: all 0.3s;
+}
+
+
+#miPortafolio {
+  display: block;
+  clear: both;
+  float: left;
+  width: 96%;
+  text-align: center;
+  padding: 2%;
+
+  background-color: #e0e0e0;
+
+}
+
+#miPortafolio img {
+  max-width: 20%;
+  transition: all 0.5s;
+}
+
+#miPortafolio img:hover {
+  max-width: 20%;
+  filter: grayscale(100%);
+  transition: all 0.5s;
+}
+
+#miPortafolio h2,
+#proyectoDestacado h2 {
+  color: #191919;
+  padding: 2% 0;
+  text-shadow: 0px 0px 2px #f78f26;
+}
+
+#proyectoDestacado {
+  display: block;
+  clear: both;
+  float: left;
+  width: 96%;
+  text-align: center;
+  padding: 5% 2%;
+  background: url(../imagenes/fondos/fondoPRoyecto) no-repeat bottom right;
+}
+
+#proyectoDestacado p {
+  padding: 2% 0;
+}
+
+#proyectoDestacado iframe {
+  box-shadow: 0px 0px 5px gray;
+}
+
+
+
+
+
+
+/*///////////footer//////////////*/
+#piePaginaPrincipal {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+  min-height: 200px;
+  background-color: white;
+  color: white;
+  text-align: center
+}
+
+#piePaginaPrincipal h2 {
+  padding: 2% 0;
+}
+
+
+
+
+#formularioContacto {
+  background-color: #121212;
+  display: block;
+  clear: both;
+  float: left;
+  padding: 2% 20%;
+  width: 60%;
+  text-align: left;
+
+}
+
+#formularioContacto h2 {
+  text-align: center;
+}
+
+#formularioContacto form input,
+#formularioContacto form textarea {
+  width: 100%;
+  background-color: black;
+  margin: 2% 0;
+  padding: 2%;
+  font-size: 20pt;
+  border: solid 1px #666;
+}
+
+#formularioContacto form input:focus,
+#formularioContacto form textarea:focus {
+  background-color: #f78f26;
+  color: white;
+
+}
+
+#formularioContacto form label {
+  padding-top: 4%;
+  display: block;
+  color: #666;
+}
+
+#formularioContacto form button {
+  padding: 2%;
+  background-color: #f78f26;
+  font-size: 20pt;
+  color: white;
+  border: solid 1px #666;
+}
+
+#cierre {
+  background-color: #303030;
+
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+
+}
+
+#enlacesRedes {
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  color: #f78f26;
+}
+
+#enlacesRedes ul {
+  list-style-type: none;
+}

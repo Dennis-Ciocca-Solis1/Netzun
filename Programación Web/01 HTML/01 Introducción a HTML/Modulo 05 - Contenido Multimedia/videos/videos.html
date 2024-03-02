@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Videos en HTML</title>
+  </head>
+  <body>
+    <h1>Videos en HTML</h1>
+
+    <!-- INSERTANDO VIDEOS EN NUESTRA PÁGINA HTML -->
+
+    <!-- Antiguamente ---------------------------------------------------------- -->
+    <!-- <video>
+      <source src="videos/video.mp4" type="video/mp4" />
+      <source src="videos/video.mp4" type="video/mp4" />
+      <source src="videos/video.mp4" type="video/mp4" />
+      <track src="videos/subtitulos.vtt" kind="subtitles" srclang="es" label="Español"/>
+      si el navegador no soportaba la etiqueta 'video'
+      Tu navegador no admite el elemento, por favor actualízalo para tener una
+      mejor experiencia
+    </video> -->
+    <!-- ------------------------------------------------------------------------ -->
+
+    <!-- AHORA -->
+    <video
+      src="videos/video.mp4"
+      poster="videos/poster.png"
+      autoplay
+      controls
+      height="400"
+      width="200"
+      loop
+    >
+      <track src="videos/subtitulos.vtt" kind="subtitles" srclang="es" label="Español"/>
+      <!-- si el navegador no soportaba la etiqueta 'video' -->
+      Tu navegador no admite el elemento, por favor actualízalo para tener una
+      mejor experiencia
+    </video>
+
+    <!-- Lista de atributos de la etiqueta 'video':    
+      src: ubicación del video
+      poster: asigna un imagen que se muestra antes de reproducir el video
+      autoplay: reproduce el video automáticamente al cargar la página
+      controls: habilita los controles del video
+      height: configura la altura del video
+      width: configura el ancho del video  
+      loop: vuelve a reproducir el video al finalizar    
+      muted: reproduce el video en silencio al iniciar
+      preload: precarga el video para que se reproduzca más rapidamente
+      track: sirve para cargar nuestro subtítulos      
+      -->
+
+    <!-- ***************************************************************************** -->
+    <!-- IFRAMES(inline frame): Inserta páginas dentro de páginas -->
+    <!-- ir a iframes.html -->
+  </body>
+</html>

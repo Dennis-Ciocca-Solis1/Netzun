@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <!-- SISTEMA GRID: EJEMPLO PRÁCTICO -->
+  <div class="container">
+
+    <h1 class="display-2 mt-5">Imágenes</h1>
+
+    <h1 class="display-6 mt-5">Productos</h1>
+
+    <div class="row mt-3">
+      <div class="col-3">
+        <img src="img/apple.jpeg" class="rounded mx-auto d-block img-item" alt="Manzana">
+        <h5 class="text-center mt-1">Manzana</h5>
+      </div>
+
+      <div class="col-3">
+        <img src="img/naranja.jpeg" class="rounded mx-auto d-block img-item" alt="Naranja">
+        <h5 class="text-center mt-1">Naranja</h5>
+      </div>
+
+      <div class="col-3">
+        <img src="img/papa.jpeg" class="rounded mx-auto d-block img-item" alt="Papa">
+        <h5 class="text-center mt-1">Papa</h5>
+      </div>
+
+      <div class="col-3">
+        <img src="img/panes.jpeg" class="rounded mx-auto d-block img-item" alt="Panes">
+        <h5 class="text-center mt-1">Panes</h5>
+      </div>
+
+      <div class="col-3">
+        <img src="img/panes.jpeg" class="rounded mx-auto d-block img-item" alt="Panes">
+        <h5 class="text-center mt-1">Panes</h5>
+      </div>
+
+      <div class="col-3">
+        <img src="img/panes.jpeg" class="rounded mx-auto d-block img-item" alt="Panes">
+        <h5 class="text-center mt-1">Panes</h5>
+      </div>
+
+    </div>
+
+    <!-- CREANDO UN CARROUSEL -->
+    <h1 class="display-6 mt-5">Carrusel</h1>
+
+    <!-- Carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide mt-5 mb-5">
+      <div class="carousel-indicators">
+
+        <!-- Botones internos centrales de Carrusel -->
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Parte interna del carrusel -->
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="img/apple.jpeg" class="d-block w-100" alt="Manzana">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/naranja.jpeg" class="d-block w-100" alt="Naranja">
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/panes.jpeg" class="d-block w-100" alt="Panes">
+        </div>
+
+      </div>
+
+      <!-- Botones de Movimiento de Carrusel 'Previo' y 'Siguiente' -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+
+  <!-- *************************************************************************************************** -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

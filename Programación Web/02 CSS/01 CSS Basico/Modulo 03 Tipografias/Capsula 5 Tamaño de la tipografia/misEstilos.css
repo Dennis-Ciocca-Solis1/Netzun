@@ -1,0 +1,20 @@
+@font-face {
+  font-family: miFuente;
+  src: url(tipografias/Montserrat-Regular.ttf);
+}
+
+body {
+  font-family: miFuente, serif;
+  font-size: 3%;
+}
+
+h1 {
+  /*font-size: 300%;*/ /* del font-size del body */
+  font-size: 3em; /* es lo mismo */
+
+}
+
+.em.autor{
+  /*font-size: 50%;*/ /* del font-size del body */
+  font-size: 0.5em; /* es lo mismo */
+}

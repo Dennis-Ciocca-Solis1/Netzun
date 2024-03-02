@@ -1,0 +1,20 @@
+#papa {
+  background-color: black;
+  color: white;
+  display: block;
+  clear: both;
+  float: left;
+}
+
+.hijos {
+  background-color: blueviolet;
+  min-height: 430px;
+  display: block;
+  clear: none;
+  float: left;
+
+  width: 9%;
+  padding: 3% 5%;
+  margin: 3%;
+
+}

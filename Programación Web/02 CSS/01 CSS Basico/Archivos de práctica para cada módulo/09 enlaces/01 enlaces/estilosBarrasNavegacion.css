@@ -1,0 +1,112 @@
+/*
+Colores azules de netzun
+azul claro: #3284EF;
+azul oscuro: #2768AF;
+*/
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+a#ejemploConFondo:link,
+a#ejemploConFondo:visited {
+  display: block;
+  clear: none;
+  float: left;
+  width: 350px;
+  height: 100px;
+  background-image: url(fondo.png);
+  color: white;
+  font-size: 30pt;
+  line-height: 100px;
+  padding-left: 50px;
+  text-decoration: none;
+
+}
+
+a#ejemploConFondo:hover {
+  background-position: 0px -100px; 
+}
+
+ul {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+ul#barraVertical {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul#barraVertical li {
+
+  width: 30%;
+  display: block;
+  clear: both;
+  float: left;
+}
+
+ul#barraVertical li a:link,
+ul#barraVertical li a:visited {
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #3284EF;
+  color: white;
+  text-decoration: none;
+}
+
+ul#barraVertical li a:hover {
+  background-color: #2768AF;
+
+}
+
+ul#barraVertical li a:active {
+  background-color: #121b2a;
+
+}
+
+
+/*estilos para la horizontal*/
+ul#barraHorizontal {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #3284EF;
+}
+
+ul#barraHorizontal li {
+
+
+  display: block;
+  clear: none;
+  float: left;
+}
+
+ul#barraHorizontal li a:link,
+ul#barraHorizontal li a:visited {
+  display: block;
+  padding: 0px 10px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #3284EF;
+  color: white;
+  text-decoration: none;
+}
+
+ul#barraHorizontal li a:hover {
+  background-color: #2768AF;
+
+}
+
+ul#barraHorizontal li a:active {
+  background-color: #121b2a;
+
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <title>Formularios en HTML</title>
+</head>
+
+<body>
+   <h1>Formularios en HTML</h1>
+
+   <form method="get">
+      <!-- Input tipo Texto y Password -->
+      <fieldset> <br>
+         <fieldset>
+            <legend>Inputs tipo Texto</legend>
+            <label for="nombreApellido">Nombre y Apellido:</label>
+            <input type="text" id="nombreApellido" name="nombre" placeholder="nombre apellido">
+            <br><br>
+            <label for="clave">Escriba su clave:</label>
+            <input type="password" id="clave" name="clave" required>
+
+         </fieldset> <br>
+
+         <!-- Input tipo Email -->
+         <!-- ---------------------------------------------------------------------------------- -->
+         <fieldset>
+            <legend>Input tipo Email</legend>
+            <label for="email">Email:</label>
+            <br>
+            <label for="">Escriba su email:</label>
+            <input type="email" id="email" name="email" value="dennis@email.com">
+
+         </fieldset> <br>
+
+         <!-- ---------------------------------------------------------------------------------- -->
+
+         <!-- Input tipo Teléfono -->
+         <fieldset>
+            <legend>Input tipo Tel</legend>
+            <label for="telefono">Para escribir teléfonos:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="345 356 4567">
+
+         </fieldset> <br>
+
+         <!-- ---------------------------------------------------------------------------------- -->
+
+         <!-- Input tipo Number (contador)-->
+         <fieldset>
+            <legend>Input tipo Number</legend>
+            Número: <br>
+            <label for="cantidad">Seleccione una cantidad entre 1 y 10:</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" max="10">
+            <br>
+            <label for="cantidadconStep">Seleccione una cantidad entre 0 y 21, en múltiplos de 3:</label>
+            <input type="number" id="cantidadconStep" name="cantidadconStep" min="0" max="21" step="3">
+
+         </fieldset> <br>
+
+         <!-- ---------------------------------------------------------------------------------- -->
+         <!-- Input tipo Search -->
+         <fieldset>
+            <legend>Input tipo Search</legend>
+            <label for="busqueda">Buscar</label>
+            <input type="search" id="busqueda" name="busqueda">
+            <button>Buscar</button>
+         </fieldset> <br>
+
+         <!-- ---------------------------------------------------------------------------------- -->
+         <!-- Input tipo RadioButton -->
+         <fieldset>
+            <legend>Input de Radio Button</legend>
+            <span>Género:</span> <br>
+            <input type="radio" id="hombre" name="genero" value="hombre">
+            <label for="hombre">Hombre</label> <br>
+            <input type="radio" id="mujer" name="genero" value="mujer">
+            <label for="mujer">Mujer</label> <br>
+            <input type="radio" id="noDecir" name="genero" value="preieroNoDecir">
+            <label for="noDecir">Prefierlo no decir</label>
+         </fieldset>
+      </fieldset> <br>
+
+      <!-- ---------------------------------------------------------------------------------- -->
+      <!-- Input tipo Checkbox -->
+      <fieldset>
+         <legend>Input tipo Checkbox</legend>
+         <p>Sirven para selección múltiple</p>
+         <span>Seleccione una opción:</span> <br>
+         <input type="checkbox" id="opcion1" name="opcion1" value="opcion1" checked>
+         <label for="opcion1">Opción 1</label>
+         <br>
+         <input type="checkbox" id="opcion2" name="opcion2" value="opcion2">
+         <label for="opcion2">Opción 2</label>
+         <br>
+         <input type="checkbox" id="opcion3" name="opcion3" value="opcion3" disabled>
+         <label for="opcion3">Opción 3</label>
+
+      </fieldset> <br>
+
+      <!-- ---------------------------------------------------------------------------------- -->
+      <!-- Input tipo Color -->
+      <fieldset>
+         <legend>Input tipo Color</legend>
+         <label for="colorEscogido">Escoja su color favorito:</label>
+         <input type="color" id="colorEscogido" name="colorEscogido">
+      </fieldset> <br>
+
+      <!-- ---------------------------------------------------------------------------------- -->
+      <!-- Input tipo Fecha -->
+      <fieldset>
+         <legend>Input tipo Fecha, Fecha y Hora</legend>
+         <label for="fechaNacimiento">Fecha de Nacimiento</label>
+         <input type="date" id="fechaNacimiento" name="fechaNacimiento">
+         <br>
+         <label for="fechaHora">Seleccione fecha y hora</label>
+         <input type="datetime-local" id="fechaHora" name="fechaHora">
+         <br>
+         <label for="mesyAnio">Birthday (month and year)</label>
+         <input type="month" id="mesyAnio" name="mesyAnio">
+
+      </fieldset> <br>
+
+      <!-- ---------------------------------------------------------------------------------- -->
+      <!-- Input tipo Range -->
+      <fieldset>
+         <legend>Input tipo Range</legend>
+         <span>Para seleccionar dentro de un rango:</span> <br>
+         <label for="valorRango">Defina un valor entre 0 y 75</label>
+         <input type="range" name="valorRango" id="valorRango" min="0" max="75">
+      </fieldset> <br>
+
+      <!-- ---------------------------------------------------------------------------------- -->
+      <!-- Input tipo File -->
+      <fieldset>
+         <legend>Input tipo File</legend>
+         <span>Para seleccionar un archivo:</span> <br>
+         <label for="archivo">Seleccione un archivo:</label>
+         <input type="file" id="archivo" name="archivo">
+      </fieldset>
+
+      <!-- ---------------------------------------------------------------------------------- -->
+      <!-- Input tipo Hidden -->
+      <fieldset>
+         <legend>Input tipo Hidden</legend>
+         <input type="hidden" id="campoEscondido" name="campoEscondido" value="valorEscondidoQuePaso">
+      </fieldset>
+
+      <!-- ---------------------------------------------------------------------------------- -->
+      <!-- Inputs de Gestión de la Información (botones botton, submit, reset, image)-->
+
+      <fieldset>
+         <legend>Input tipo Button</legend>
+         <span>Botones:</span><br>
+         <input type="button" value="Texto del boton">
+         <input type="reset" value="Resetear">
+         <input type="submit" name="" id="">
+         <input type="submit" value="Botón enviar">
+         <button type="submit">Enviar</button>
+         <img type="image" src="imagenes/fondoBoton.png" alt="enviar">
+      </fieldset>
+
+      <!-- Algunos atributos de los Input -->
+      <!--    
+      TIPOS_DE_ENTRADA_COMUNES
+      text: Campo de texto de una sola línea.
+      password: Campo de contraseña.
+      checkbox: Casilla de verificación.
+      radio: Botón de radio.
+      file: Campo de selección de archivos.
+      submit: Botón de envío de formulario.
+      reset: Botón de reinicio de formulario.
+      button: Botón genérico.
+      date: Campo de entrada para una fecha.
+      email: Campo de entrada para una dirección de correo electrónico.
+      number: Campo de entrada para una cantidad.
+      url: Campo de entrada para una URL.
+      color: Campo de entrada para seleccionar un color.
+      hidden: se utiliza para incluir datos en un formulario que no son visibles para el usuario y para enviar información adicional al servidor sin mostrarla en la interfaz del usuario.      
+
+      ATRIBUTOS_COMUNES
+      type: Especifica el tipo de campo de entrada.
+      name: Identifica el nombre del campo de entrada cuando se envía el formulario.
+      value: Define el valor inicial del campo de entrada por defecto en los inputs.
+      placeholder: Muestra un texto de marcador de posición en el campo de entrada.
+      required: Indica que el campo de entrada debe ser completado antes de enviar el formulario.
+      disabled: Desactiva el campo de entrada, impidiendo que el usuario lo edite o lo envíe.
+      readonly: Hace que el campo de entrada sea de solo lectura, el usuario no puede editarlo, pero aún se enviará con el formulario.
+      autofocus: Hace que el campo de entrada sea el que obtiene automáticamente el foco cuando se carga la página.     
+      
+      ATRIBUTOS_POCO_COMUNES     
+      accept: Especifica los tipos de archivos que son aceptables para ser cargados mediante el control de entrada de archivo.
+      alt: Proporciona un texto alternativo que se muestra cuando la imagen no puede cargarse.
+      dirname: Indica el nombre de un directorio al enviar el formulario.
+      form: Asocia el elemento de entrada con un formulario específico mediante su identificador.
+      formaction: Especifica la URL a la que se enviará el formulario cuando se envíe.
+      formenctype: Define cómo se codificarán los datos antes de enviarlos al servidor.
+      formmethod: Especifica el método HTTP utilizado al enviar el formulario.
+      formnovalidate: Indica que el formulario no debe ser validado cuando se envía.
+      formtarget: Especifica dónde abrir el resultado de enviar el formulario.
+      height: Define la altura de un elemento, como una imagen o un campo de entrada.
+      lang: Especifica el idioma del contenido del elemento.
+      list: Asocia el elemento con una lista predefinida de opciones.
+      max: Establece el valor máximo que se puede ingresar en un campo de entrada numérica o de fecha.
+      maxlength: Limita el número máximo de caracteres que se pueden ingresar en un campo de texto.
+      min: Establece el valor mínimo que se puede ingresar en un campo de entrada numérica o de fecha.
+      minlength: Establece la longitud mínima de caracteres requerida en un campo de texto.
+      multiple: Permite la selección de múltiples archivos en un control de entrada de archivo.
+      pattern: Especifica un patrón regex que el valor del campo de entrada debe seguir.
+      readonly: Indica que un campo de entrada no se puede editar por el usuario.
+      size: Define el ancho visible de un campo de entrada de texto.
+      src: Especifica la fuente (URL) de un recurso incrustado, como una imagen.
+      step: Establece el intervalo de números válidos para un campo de entrada numérica.
+      tabindex: Define el orden de tabulación (el orden en el que se enfoca) para un elemento.
+      title: Proporciona información adicional sobre el elemento cuando el usuario pasa el cursor sobre él.
+      width: Define el ancho de un elemento, como una imagen.
+
+      ATRIBUTOS_ESPECÍFICOS_DE_CHECKBOX_Y_RADIOBUTTON
+      checked: Indica que el elemento debe estar marcado o seleccionado por defecto.
+      value: Contiene el valor asignado en cada opción   
+      -->
+
+   </form>
+
+</body>
+
+</html>

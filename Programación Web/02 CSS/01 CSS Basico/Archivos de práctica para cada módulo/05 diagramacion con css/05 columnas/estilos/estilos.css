@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+#rojoIzquierdo {
+  width: 100px;
+  height: 200px;
+  background-color: red;
+
+  display: block;
+  clear: none;
+  float: left;
+}
+
+#blanco {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+
+  display: block;
+  clear: none;
+  float: left;
+}

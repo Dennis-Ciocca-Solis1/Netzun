@@ -1,0 +1,40 @@
+.img-item{
+   height: 200px;
+   /* width: max-content; */
+   width: 250px;      
+   cursor: pointer;
+
+}
+
+h5.text-center.mt-1{
+   cursor: pointer;
+}
+
+.btn-netzun{
+   background-color: #C5E1A5;
+   border-radius: #C5E1A5 ;
+   color: #444;
+}
+
+.bg-green-dark-netzun{
+   background-color: #C5E1A5;
+}
+
+.text-netzun-green{
+   color: #33691E;
+}
+
+body{
+   background-color: #f3f3f3;
+}
+
+.form-netzun{
+   border: 1px solid #444;
+   padding: 20px 40px;
+}
+
+.btn-formulario-netzun {
+   background-color: #33691E;
+   border-radius: #33691E;
+   color: #FFFFFF;
+}

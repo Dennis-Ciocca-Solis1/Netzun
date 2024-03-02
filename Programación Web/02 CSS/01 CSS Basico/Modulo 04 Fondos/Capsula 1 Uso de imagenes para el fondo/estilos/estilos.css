@@ -1,0 +1,15 @@
+body { 
+
+  /* configurando una imagen como fondo */
+  background-image: url(../imagenes/diagonal2.png);
+  /* background-color: aquamarine; */ /* para imágenes con tranparencia*/
+
+  /* repetir imagen para que llene toda la pantalla */
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat; */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background: black url(../imagenes/cuadraditos.png) repeat-y; */  
+
+  /* background-color: #384253; */
+}

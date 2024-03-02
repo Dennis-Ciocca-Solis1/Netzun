@@ -1,0 +1,194 @@
+/*
+Color naranja: #f78f26
+*/
+
+
+/*
+header,
+section,
+nav,
+main,
+article,
+div,
+ul,
+h1,
+footer {
+  border: solid 2px red;
+  box-sizing: border-box;
+}
+*/
+
+
+@font-face {
+  font-family: miFuente;
+  src: url(../fuentes/Montserrat-Medium.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: miFuente;
+  src: url(../fuentes/Montserrat-SemiBold.ttf);
+  font-weight: 700;
+}
+
+body {
+  background-color: white;
+  color: #252525;
+  font-family: miFuente, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f78f26;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+
+/*inicio diagramación*/
+
+/*///////////Cabezote//////////////*/
+#cabezotePrincipal {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+  min-height: 600px;
+
+
+}
+
+#barraSuperior {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+#barraPrincipalNavegacion {
+  display: block;
+  clear: none;
+  float: left;
+
+  width: 60%;
+  min-height: 100px;
+}
+
+#barraSuperior h1 {
+  display: block;
+  clear: none;
+  float: right;
+
+  width: 40%;
+  min-height: 100px;
+
+
+}
+
+#bannerPrincipal {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+
+/*///////////Contenido principal//////////////*/
+#contenidoPrincipal {
+  display: block;
+  clear: both;
+  float: left;
+
+  width: 100%;
+  min-height: 200px;
+
+}
+
+#miPerfil {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+
+  background-color: rgb(0, 0, 0);
+  color: #787878;
+}
+
+#miDescripcion {
+  display: block;
+  clear: none;
+  float: left;
+  width: 50%;
+
+
+}
+
+#habilidades {
+  display: block;
+  clear: none;
+  float: left;
+  width: 50%;
+
+  background-color: #443533;
+  color: #fff;
+}
+
+#miPortafolio {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+
+  background-color: #e0e0e0;
+
+}
+
+#proyectoDestacado {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+
+
+
+
+
+/*///////////footer//////////////*/
+#piePaginaPrincipal {
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+  min-height: 200px;
+  background-color: white;
+}
+
+
+
+
+#formularioContacto {
+  background-color: #121212;
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+
+}
+
+#cierre {
+  background-color: #303030;
+
+  display: block;
+  clear: both;
+  float: left;
+  width: 100%;
+
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html >
+<head>
+   <meta charset="UTF-8">
+   <title>Tablas en HTML</title>
+</head>
+<body>
+
+   <h1>Tablas en HTML</h1>
+
+   <!-- tr = fila; td = coulmna; th = encabezado de columna-->
+   <table border="1">
+
+      <tr>
+         <th>Nombre</th>
+         <th>Primer Apellido</th>
+         <th>Segundo Apellido</th>
+      </tr>
+
+      <tr> <!-- fila 1-->
+         <td>Daniel</td> <!-- columna 1-->
+         <td>Salamanca</td> <!-- columna 2 -->
+         <td>Díaz</td>
+      </tr>
+      <tr> <!-- fila 2-->
+         <td>Mauricio</td> <!-- columna 1 -->
+         <td>Díaz</td> <!-- columna -->
+         <td>Roa</td>
+      </tr>
+   </table>
+<br>
+
+<!-- -------------------------------------------------------------------------------- -->
+   <!-- Unir 2 columnas o más de un misma fila-->
+   <table border="1">
+      <tr>
+         <th>Nombre</th>
+         <!-- <th colspan="2">Apellidos</th> -->
+         <th colspan="3">Apellidos</th>        
+      </tr>      
+      <tr> 
+         <td>Daniel</td>
+         <td>Salamanca</td>
+         <td>Díaz</td>
+         <td>Roa</td>
+      </tr>
+   </table>   
+<br>
+
+<!-- -------------------------------------------------------------------------------- -->
+   <!-- Unir 2 filas o más de una misma columna -->
+   <table border="1">
+      <tr>
+         <th>Nombre</th>
+         <td>Daniel</td>>     
+      </tr>
+      <tr>
+         <th rowspan="2">Apellidos</th>
+         <td>Salamanca</td>
+      </tr>
+      <tr>
+         <td>Díaz</td>
+      </tr>
+   </table>   
+<br>
+
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- atajo para crear una tabla de 3x3: table>tr*3>td*4 -->
+<table border="1">
+   <tr>
+      <td>1</td>
+      <!-- alargando una fila -->
+      <td colspan="2">2</td>
+      
+   </tr>
+   <tr>
+      <!-- alargando una columna -->
+      <td rowspan="2">4</td>
+      <td>5</td>
+      <td>6</td>
+   </tr>
+   <tr>
+      <!-- borramos la 7 -->
+      <!-- <td>7</td> -->
+      <td>8</td>
+      <td>9</td>
+   </tr>
+   <tr>
+      <td>*</td>
+      <td>0</td>
+      <td>#</td>
+   </tr>
+</table>
+<br>
+
+<!-- -------------------------------------------------------------------------------- -->
+<!-- Elemento 'Caption': permite ponerle un título a la tabla -->
+<table border="1">
+   <caption>Listado Profesores</caption>
+   <tr>
+      <th>Nombre</th>
+      <th colspan="2">Apellidos</th>
+   </tr>
+   <tr>
+      <td>Daniel</td>
+      <td>Salamanca</td>
+      <td>Roa</td>
+   </tr>
+</table>
+   
+</body>
+</html>

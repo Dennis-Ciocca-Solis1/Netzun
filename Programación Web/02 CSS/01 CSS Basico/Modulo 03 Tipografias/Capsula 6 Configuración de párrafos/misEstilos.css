@@ -1,0 +1,98 @@
+/* body {
+  font-weight: 600;
+} */
+
+p {
+  /* Alineando los textos de los párrafos */
+  /* text-align: right; */
+  /* text-align: center; */
+  /* text-align: justify; */
+  text-align: left;
+  /*viene por defecto*/
+
+  /* direction: rtl; */
+  direction: ltr;
+  /*viene por defecto*/
+
+  /* Espaciado de letras */
+  /* letter-spacing: 10px; */
+  /* letter-spacing: 20pt; */
+  /* letter-spacing: 2em; */
+  /* letter-spacing: -3px; */  
+
+  /* Interlineado */
+  /* line-height: 1.5; */
+  /* line-height: 20pt; */
+  /* line-height: 30px; */
+  /* line-height: 2em; */
+  
+  /* Espaciado de palabras */
+  /* word-spacing: 30px; */
+  /* word-spacing: 20pt; */
+  /* word-spacing: 1em; */  
+
+  /* Sangría o Indentado */
+  /* text-indent: 40px; */
+  /* text-indent: 20pt; */  
+  /* text-indent: 2em; */
+  /* text-indent: 10%; */
+
+}
+
+h1 {
+  font-weight: normal;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Transformando el texto */
+.sostenida {
+  /* text-transform: capitalize; */
+  /* text-transform: lowercase; */
+  text-transform: uppercase;
+  /* text-transform: none; */
+  /*viene por defecto*/
+
+  color: red;
+}
+
+/* Decoración de texto */
+.textoModificado {
+  /* text-decoration: underline; */    
+  /* text-decoration: overline; crea una línea por encima del texto */
+  text-decoration: line-through;
+  /* text-decoration: none; viene por defecto */
+
+}
+
+/* Configuración de Columnas */
+/*
+column-count: 3;: Esta propiedad establece el número de columnas en las que se dividirá el contenido. En este caso, el contenido se dividirá en tres columnas.
+
+column-gap: 50px;: Esta propiedad establece el espacio entre las columnas. En este caso, hay un espacio de 50 píxeles entre cada columna.
+
+column-rule: red solid 3px;: Esta propiedad es una abreviatura para column-rule-color, column-rule-style, y column-rule-width. Establece la regla que se mostrará entre las columnas. En este caso, la regla será de color rojo, sólida (sin puntos o guiones) y tendrá un ancho de 3 píxeles.
+
+column-width: 300px;: Esta propiedad establece el ancho de cada columna. En este caso, cada columna tendrá un ancho de 300 píxeles.
+*/
+#parrafoColumnas {
+  column-count: 3;
+  column-gap: 50px;
+  /* column-rule-color: red;
+  column-rule-style: solid;
+  column-rule-width: 3px; */
+  column-rule: red solid 3px;
+  column-width: 300px;
+
+}
+
+#EjemploDESpan {
+  column-count: 3;
+}
+
+h1 {
+  column-span: all; /*La propiedad column-span en CSS se utiliza para especificar cómo un elemento debería abarcar varias columnas en un diseño de múltiples columnas. Cuando se establece en all, el elemento se expandirá para abarcar todas las columnas en las que se encuentra, ignorando cualquier regla de columnas existente.*/
+}

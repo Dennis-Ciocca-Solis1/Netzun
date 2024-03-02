@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <title>Formularios en HTML</title>
+</head>
+
+<body>
+   <h1>Formularios en HTML</h1>
+
+   <!-- Elementos de los formularios -->
+   <!--    
+   input: permite ingresar la información que será enviada
+   label: genera una etiqueta a un campo y nos permite enfocar el cursor en dicho campo
+   fieldset: agrupa los elementos
+   select: nos permite crear una lista desplegable
+   option: permite crear la opciones que contendrá nuestra lista despegable
+   optgroup: agrupa las opciones dentro de la lista desplegable
+   textarea: crear una área mucho más grande que un input para ingresar un párrafo de varias líneas
+   button: crea un botón   
+   legend: crea una descripción al grupo del fieldset   
+   datalist
+   output     
+   -->
+
+   <!-- Formulario de registro -->
+   <!-- Input -->
+   <form method="get">
+      <fieldset>
+         <legend>Datos básicos personales</legend>
+
+         <label for="nombre">Nombre:</label>
+         <input type="text" id="nombre" name="nombre" placeholder="escriba su nombre">&nbsp;&nbsp;
+
+         <label for="apellido">Apellido</label>
+         <input type="text" id="apellido" name="apellido">
+
+      </fieldset>
+
+      <!-- DropDownMenu -->
+      <fieldset>
+         <legend>Datos de nacimiento</legend>
+         <label for="genero">Género</label>
+         <select id="genero" name="genero">
+            <option value="noseleccionado" selected>Seleccione una opción por favor...
+            </option>
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="noDecir">Prefiero no decirlo</option>
+         </select>
+      </fieldset>
+      <br><br>
+
+      <fieldset>
+         <legend>Gustos y descripciones personales</legend>
+
+         <!-- Textarea -->
+         <label for="personalidad">Describa en 180 caracteres su Personalidad:</label><br>
+         <textarea name="personalidad" id="personalidad" cols="30" rows="10"></textarea><br><br>
+
+         <label for="colores">Escoja 3 colores favoritos:</label>
+         <select id="colores" name="colores" size="7" multiple>
+            <option value="noseleccionado" selected>Seleccione mínimo 2 opciones...</option>
+            <option value="amarillo">Amarillo</option>
+            <option value="azul">Azul</option>
+            <option value="rojo">Rojo</option>
+            <option value="verde">Verde</option>
+            <option value="naranja">Naranja</option>
+            <option value="morado">Morado</option>
+         </select><br><br>
+
+         <!-- ------------------------------------------------------------------------------- -->
+         <!-- 'Select' multiples opciones-->
+         <label for="nombreFavorito">Escoja un nombre favorito:</label>
+         <select name="nombreFavorito" id="nombreFavorito" size="1">
+            <option value="noseleccionado" selected>Seleccione un nombre...</option>
+            <optgroup label="Nombres de hombres">
+               <option value="Daniel">Daniel</option>
+               <option value="Mauricio">Mauricio</option>
+               <option value="Jacobo">Jacobo</option>
+            </optgroup>
+            <optgroup label="Nombres de mujeres">
+               <option value="Maria">María</option>
+               <option value="Camila">Camila</option>
+               <option value="Antonia">Antonia</option>
+            </optgroup>
+         </select><br><br>
+
+         <!-- ------------------------------------------------------------------------------- -->
+         <!-- Datalist -->
+         <label for="ciudad">Capital latinoamericana preferida:</label>
+         <input list="ciudades" name="ciudad">
+         <datalist id="ciudades">
+            <option value="Bogotá">
+            <option value="Lima">
+            <option value="Quito">
+            <option value="Caracas">
+            <option value="Brasilia">
+            <option value="Montevideo">
+            <option value="Buenos Aires">
+            <option value="Asunción">
+            <option value="La Paz">
+         </datalist>
+
+      </fieldset>
+
+      <!-- ------------------------------------------------------------------------------- -->
+      <!-- Button -->
+      <button type="reset">Borrar</button>
+      <button type="button">Botón</button>
+      <button type="submit">Enviar2</button>
+
+   </form>
+
+</body>
+
+</html>

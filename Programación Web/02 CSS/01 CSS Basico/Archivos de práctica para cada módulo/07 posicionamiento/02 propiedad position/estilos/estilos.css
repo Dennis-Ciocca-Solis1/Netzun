@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+}
+
+#papaRoja {
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  position: relative;
+}
+
+#cajaRoja {
+  width: 100%;
+
+  min-height: 100px;
+  background-color: red;
+  position: absolute;
+  bottom: 0px;
+
+
+  right: 0px
+}
+
+#cajaVerde {
+  width: 33%;
+  min-height: 200px;
+  background-color: green;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+#cajaAzul {
+  width: 33%;
+  min-height: 200px;
+  background-color: blue;
+  position: relative;
+}
+
+#hijoCajaAzul {
+  width: 100%;
+  min-height: 50px;
+  background-color: deepskyblue;
+  bottom: 3px;
+  position: absolute;
+
+}

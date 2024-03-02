@@ -1,0 +1,52 @@
+:root {
+  --azulNetzun: #26a1ca;
+  --colorRojo: #ff0000;
+}
+
+body {
+  font-family: verdana;
+  font-size: 20pt;
+}
+
+
+p {
+  color: var(--azulNetzun);
+}
+
+#cajacolor {
+  background-color: var(--azulNetzun);
+  margin: 20px 0;
+
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 
+}
+
+table,
+th,
+td {
+  border: 1px solid var(--azulNetzun);
+  border-collapse: collapse;
+  padding: 1%;
+  font-size: 25pt;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+  color:
+}
+
+tr:hover {
+  background-color: var(--azulNetzun);
+  transition: all 0.5s;
+}
+
+
+table {
+  color: black;
+  font-size: 10pt;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0f0;
+  -webkit-box-reflect: below 0 linear-gradient(transparent, rgba(255, 0, 0, 0.3));
+
+}

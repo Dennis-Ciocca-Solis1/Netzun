@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- ATRIBUTOS DEL ELEMENTO 'Meta' -->
+
+   <!-- 
+   charset: Especifica la codificación de caracteres para el documento HTML. Ayuda a los navegadores a interpretar correctamente los caracteres 
+            especiales.
+   content: Proporciona el valor asociado con un atributo de metaetiqueta. Por ejemplo, en <meta name="description" content="Una breve descripción">, 
+            "Una breve descripción" es el contenido asociado.
+   http-equiv: Se utiliza para proporcionar información adicional al servidor web sobre cómo procesar la página. Por ejemplo, <meta http-equiv="refresh" 
+               content="5;url=https://www.ejemplo.com/"> redirigirá automáticamente a la URL especificada después de 5 segundos.
+   name: Define el nombre del metadato en una metaetiqueta. Por ejemplo, <meta name="keywords" content="HTML, metaetiquetas, desarrollo web"> especifica 
+         palabras clave asociadas con la página.
+      description: Proporciona una breve descripción del contenido de la página. Puede ser utilizado por los motores de búsqueda para mostrar información 
+                   sobre la página.
+      keywords: Enumera palabras clave relevantes para el contenido de la página. Anteriormente utilizado por motores de búsqueda para indexar la página, 
+                aunque su importancia ha disminuido.
+      author: Indica el autor o creador del documento HTML.
+      copyright: Especifica información de derechos de autor o de propiedad intelectual asociada con el documento.
+      viewport: Define las características de visualización para dispositivos móviles, como el ancho de la pantalla y la escala inicial.
+      application-name: Define el nombre de la aplicación web cuando se guarda en la pantalla de inicio de un dispositivo móvil.
+      generator: Indica la herramienta o software que se utilizó para generar el documento HTML.
+      robots: Controla el comportamiento de los motores de búsqueda en relación con la indexación y seguimiento de la página. Puede contener directivas 
+              como "noindex" o "nofollow".   
+   -->
+
+   <!-- codificación de caracteres usada -->
+   <meta charset="UTF-8"/>
+   
+   <!-- name -->
+   <meta name="description" content="Este curso nos explica a profundidad todas las etiquetas de HTML"/>
+
+   <meta name="keywords" content="HTML, Netzun, Desarrollo Web"/>
+
+   <meta name="author" content="Netzun y Daniel Salamanca"/>
+
+   <meta name="copyright" content="Todos los derechos reservados - 2020"/>
+
+   <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
+
+   <meta name="application-name" content="Nombre de la app si es una aplicación web o móvil. O sino, no usar"/>
+
+   <meta name="generator" content="El software que generó el código"/>
+
+   <!-- robots -->
+   <meta name="robots" content="index"/>
+   <meta name="robots" content="noindex"/>  
+
+   <meta name="robots" content="follow"/>
+   <meta name="robots" content="nofollow"/>     
+
+   <!-- combinaciones robots --> 
+   <meta name="robots" content="index,follow"/>
+   <meta name="robots" content="noindex,nofollow"/>
+   
+   <meta name="robots" content="index,nofollow"/>
+   <meta name="robots" content="noindex,follow"/>
+
+   <!-- ------------------------------------------ -->
+   <!-- http-equiv -->
+   <meta http-equiv="cache-control" content="no-cache"/>
+
+   <meta http-equiv="expires" content="60"/>
+
+   <meta http-equiv="expires" content="Sat, 01 Jan 2021 00:00:00 GMT"/>
+
+   <meta http-equiv="refresh" content="2; url=https://www.netzun.com"
+
+   <title>Meta en HTML</title>
+</head>
+</head>
+
+<body>
+   <h1>El elemento Head en HTML</h1>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, assumenda. Blanditiis similique vel sequi assumenda, perspiciatis nesciunt, cumque adipisci, consectetur ab quaerat nemo sapiente iure fugit repudiandae! Unde, nostrum vel.</p>
+
+   <a href="paginasInternas/contacto.html">ir a contacto</a>
+
+   <p onclick="llamarFuncion()">llamar función</p>
+</body>
+</html>

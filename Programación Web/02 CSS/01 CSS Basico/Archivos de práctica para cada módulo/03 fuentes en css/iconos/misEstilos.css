@@ -1,0 +1,12 @@
+@font-face {
+  font-family: miFuente;
+  src: url(tipografias/Montserrat-Regular.ttf);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: miFuente, serif;
+}

@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+}
+
+
+
+#cajaRoja {
+  width: 33%;
+  min-height: 200px;
+  background-color: red;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  z-index: 0;
+}
+
+#cajaVerde {
+  width: 33%;
+  min-height: 200px;
+  background-color: green;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  z-index: -2
+}
+
+#cajaAzul {
+  width: 33%;
+  min-height: 200px;
+  background-color: rgba(0, 0, 255, 0.5);
+  position: fixed;
+  top: 150px;
+  left: 150px;
+  z-index: 2;
+
+}

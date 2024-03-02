@@ -1,0 +1,39 @@
+p {
+  font-family: arial;
+  color: blue;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: monospace;
+  color: black;
+
+}
+
+/***************Acá van estilos del header******************/
+
+#miParrafoFavorito {
+  text-align: right;
+  color: blueviolet;
+}
+
+.hombre {
+  margin-left: 50px;
+}
+
+
+/***************Acá los de contenido principal******************/
+.mujer {
+  margin-right: 100px;
+  color: brown;
+}
+
+.conGafas {
+  font-weight: bold;
+}

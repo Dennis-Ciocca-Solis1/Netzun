@@ -1,0 +1,17 @@
+/* Usando nuestra fuente local(Font-Face) */
+@font-face {
+  font-family: miFuente;
+  src: url(tipografias/Minecraft.ttf); /* descargar la fuente desde internet */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family:miFuente, serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}

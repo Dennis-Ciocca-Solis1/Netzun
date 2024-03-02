@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-image: url(../imagenes/mohammad-alizade-S5uV7ro4UPY-unsplash.jpg);
+  background-repeat: no-repeat;
+
+  /* propiedades importantes de fondo  */
+  background-position: 0 0;
+  background-size: cover;
+  background-attachment: scroll;
+
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+section {
+  width: 100%;
+  min-height: 600px;
+}
+
+/* Haciendo un paralelaje con las imágenes e fondo */
+#fijo {
+  position: fixed;
+  bottom: 0;
+  height: 800px;
+  background-image: url(../imagenes/jan-weber-mXZdMS2fDdE-unsplash.png);
+  background-position: bottom;
+  background-size: 100%;
+}

@@ -1,0 +1,40 @@
+body {}
+
+p {}
+
+h1 {
+  font-weight: normal;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.sostenida {
+  text-transform: uppercase;
+  color: red;
+}
+
+.textoModificado {
+  text-decoration: line-through;
+}
+
+#parrafoColumnas {
+  column-count: 3;
+  column-gap: 50px;
+  column-rule: red solid 3px;
+  column-width: 300px;
+
+
+
+
+}
+
+#EjemploDESpan {
+  column-count: 3;
+}
+
+h1 {
+  column-span: all;
+}

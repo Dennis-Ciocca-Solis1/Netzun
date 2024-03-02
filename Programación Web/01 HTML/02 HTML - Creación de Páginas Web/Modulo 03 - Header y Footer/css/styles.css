@@ -1,0 +1,142 @@
+html{
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after{
+   box-sizing: inherit;
+}
+
+body{
+   margin: 0px;
+}
+
+#pageNetzun #headerNetzun.fixed-header{   
+   background-color: #ffffff;
+}
+/* HEADER */
+/* 1. Haciendo que el Header sea fijo */
+#headerNetzun.fixed-header{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;  
+   z-index: 1000;
+   transition: height .3s;
+   background-color: rgba(255, 255, 255, .9);
+}
+
+/* 2. Site-Logo */
+#site-logo a{
+   text-decoration: none;
+   color: inherit;
+}
+
+#site-logo img{
+   width: 130px;
+}
+
+/* 3. Quitándoles las viñetas a los 'li'  */
+ul li{
+   list-style: none;
+}
+
+/* 4. Quitándole el subrayado a los hipervínculos de las 'ul'*/
+ul li a{
+   text-decoration: none;
+   font-size: 18px;
+}
+
+/* 5. Centrando el wrapper */
+.wrapper{
+   width: 90%;
+   margin: auto;
+   overflow: hidden;
+   height: 100%;
+}
+
+/* 6. Enviando el logo a la izquierda */
+#site-logo{
+   float: left;
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+/* 7. Enviando el nav-bar a la derecha */
+.nav-links{
+   float: right;
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+/* 8. Mostrando los elementos en línea */
+.d-flex{
+   display: flex;
+} 
+
+.link-header{
+   margin: 0px 8px;
+}
+
+/* 9. cambiando la letras de los 'li' */
+ul li.link-header a{
+   padding-bottom: 8px;
+   color: #787eff;
+}
+
+#header{
+   height: 80px;
+}
+
+/* ********************************************** */
+/* FOOTER */
+
+ /*10. Dándole color a los íconos y al fondo*/
+.footer-basic{
+   padding: 40px 0;
+   background-color: #787eff;
+   color: #4b4c4d;
+}
+
+/* 11. Alineando los elementos del footer */
+.footer-basic .social{
+   text-align: center;
+}
+
+/* 12. Modificando a los elementos 'a' */
+.footer-basic .social > a {
+   font-size: 24px; /*Establece el tamaño del ícono dentro del enlace a 24 píxeles*/
+   width: 40px; /*Esto define el ancho del área clickeable del enlace.*/
+   height: 40px; /*Esto define el alto del área clickeable del enlace.*/
+   line-height: 40px; /*Esto controla la altura del espacio que se asigna para el texto dentro del enlace. */
+   display: inline-block; /*este se muestra en línea con el contenido circundante, lo que significa que otros elementos pueden aparecer en la misma línea, pero al mismo tiempo se comporta como un elemento de bloque en cuanto a su capacidad para tener ancho y alto definidos, así como márgenes y relleno.*/
+   text-align: center;/*Centra el contenido del enlace horizontalmente dentro de su contenedor.*/
+   /* dándole un borde redondo */
+   border-radius: 50%;
+   border: 1px solid #ffffff;
+   margin: 40px 8px 0px 0px ;
+   color: #ffffff;
+   opacity: 0.75;   
+}
+
+/* 13. Añadiendo un hover */
+.footer-basic .social > a:hover{
+   opacity: 0.9;
+}
+
+/* 14. Centrando el texto Copyright */
+.footer-basic .copyright{
+   margin-top: 15px;
+   text-align: center;
+   font-size: 13px;
+   margin-bottom: 0;
+}
+
+/* 15. Dándole color al copyright */
+.copyright{
+   color: white;
+}

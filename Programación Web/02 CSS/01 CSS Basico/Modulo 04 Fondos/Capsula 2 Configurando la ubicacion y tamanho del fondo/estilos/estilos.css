@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background-image: url(../imagenes/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg);
+  background-repeat: no-repeat;
+
+  /* propiedades importantes de fondo */
+  /* background-position: center top;  */
+  background-position: 0 0;  
+  background-size: contain; /*hace que la imagen tome todo el ancho disponible*/
+  background-size: 100%; /*es parecido al 'contain'*/
+
+  background-size: cover; /*muestra la imagen desde el centro*/
+
+  /* background-attachment: fixed; hace que la imagen de fondo no baje */
+  background-attachment: scroll; /*la imagen sube con el texto*/
+
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+section {
+  width: 100%;
+  min-height: 600px;
+}
+
+#fondoFijo {
+  background-color: black;
+
+}
+
+#fondoScroll {
+  background-image: url(../imagenes/mohammad-alizade-S5uV7ro4UPY-unsplash.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+
+}
+
+#paisaje {
+  background-image: url(../imagenes/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg);
+  background-size: 100%;
+}

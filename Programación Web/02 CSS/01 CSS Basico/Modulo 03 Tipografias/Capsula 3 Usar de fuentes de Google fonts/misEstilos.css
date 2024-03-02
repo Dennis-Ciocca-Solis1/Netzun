@@ -1,0 +1,22 @@
+/* Importando el url directo desde Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&display=swap');
+
+/* Creando nuestro fuente(Font-Face) */
+@font-face {
+  font-family: miFuente;
+  src: url(tipografias/Montserrat-Regular.ttf);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-weight: 500; */
+}
+
+h1 {
+  font-family: miFuente, serif;
+}
+
+/* Fuente linkiada desde Google fonts (ya no necesita el link si se usa import) */
+p {
+  font-family: 'Open Sans', sans-serif;
+}

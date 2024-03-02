@@ -1,0 +1,26 @@
+p,
+section {
+  background-color: cadetblue;
+  width: 100%;
+  max-width: 1200px;
+
+  height: 300px;
+  overflow: scroll;
+}
+
+#papa {
+  width: 500px;
+  height: 400px;
+
+  background-color: red;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+
+
+#hijogrande {
+  width: 700px;
+  height: 100px;
+  background-color: aquamarine;
+}

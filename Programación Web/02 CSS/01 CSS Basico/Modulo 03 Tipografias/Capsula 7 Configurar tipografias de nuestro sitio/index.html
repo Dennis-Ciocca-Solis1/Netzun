@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo práctico</title>
+
+  <!-- llamando a las fuentes de Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="imagenes/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="imagenes/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="imagenes/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="imagenes/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="imagenes/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="imagenes/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="imagenes/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="imagenes/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="imagenes/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="imagenes/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="imagenes/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="imagenes/favicon/favicon-16x16.png">
+
+  <!--codificación de caracteres usada-->
+  <meta charset="UTF-8">
+
+
+  <!--name -->
+  <meta name="description" content="Este curso nos explica a profundidad todas las etiquetas de HTML" />
+
+  <meta name="keywords" content="HTML, Netzun, Desarrollo Web">
+
+  <meta name="author" content="Netzun y Daniel Salamanca" />
+
+  <meta name="copyright" content="Todos los derechos reservados - 2020" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="robots" content="index,follow" />
+  <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+  <!--Acá va barra de navegación, banner y logo-->
+  <header id="cabezotePrincipal">
+    <section id="barraSuperior">
+      <nav id="barraPrincipalNavegacion">
+        <ul>
+          <li><a href="pagina.html">INICIO</a></li>
+          <li><a href="paginasInternas/quienSoy.html">¿QUIÉN SOY?</a></li>
+          <li><a href="paginasInternas/trabajo.html">MI TRABAJO</a></li>
+          <li><a href="paginasInternas/clases.html">MIS CLASES</a></li>
+          <li><a href="paginasInternas/contacto.html">CONTÁCTEME</a></li>
+        </ul>
+      </nav>
+      <h1>
+        <img src="imagenes/logoDS.svg" alt="Daniel Salamanca">
+      </h1>
+    </section>
+    <section id="bannerPrincipal">
+      <h2>Mejorando la vida
+        a través de la Tecnología </h2>
+      <p>Desarrollo web | Realidades Mixtas (virtual | aumentada)
+        Ambientes Interactivos | Computación física | Internet de las cosas (IoT)
+        Videojuegos | Aplicaciones móviles y de escritorio </p>
+    </section>
+  </header>
+
+  <!--mi contenido Principal-->
+  <main>
+    <article id="miPerfil">
+      <section id="miDescripcion">
+        <h2>QUIÉN SOY</h2>
+        <p>Soy profesor asociado universitario, apasionado por los procesos de interacción humano-máquina (HCI),
+          la creación de experiencias de usuario (UX), el desarrollo web
+          y las realidades mixtas (virtual y aumentada).</p>
+
+        <img src="imagenes/yo.png" alt="Daniel Salamanca">
+      </section>
+      <aside id="habilidades">
+        <h2>HABILIDADES PROFESIONALES</h2>
+
+        <table>
+          <tr>
+            <td>Desarrollo web</td>
+            <td>18 años</td>
+            <td>100%</td>
+          </tr>
+          <tr>
+            <td>realidades mixtas</td>
+            <td>12 años</td>
+            <td>80%</td>
+          </tr>
+          <tr>
+            <td>computación física</td>
+            <td>12 años</td>
+            <td>80%</td>
+          </tr>
+          <tr>
+            <td>videojuegos</td>
+            <td>10 años</td>
+            <td>75%</td>
+          </tr>
+          <tr>
+            <td>aplicaciones móviles</td>
+            <td>10 años</td>
+            <td>85%</td>
+          </tr>
+        </table>
+
+      </aside>
+    </article>
+    <article id="miPortafolio">
+      <h2>MI PORTAFOLIO</h2>
+      <section id="cadaProyecto">
+        <a href="#"><img src="imagenes/proyectoHub.jpg" alt="Proyecto Hub"></a>
+        <a href="#"><img src="imagenes/proyectoAtolon.jpg" alt="Atolón videojuego"></a>
+        <img src="imagenes/proyectoOrquideas.jpg" alt="Orquideas">
+        <img src="imagenes/proyectoGolf.jpg" alt="FedeGolf">
+        <img src="imagenes/proyectoglub.jpg" alt="videojuego Glub">
+        <img src="imagenes/proyectoDetectipo.jpg" alt="Para tipografía">
+        <img src="imagenes/proyectoParBO.jpg" alt="AR en bogotá">
+        <img src="imagenes/proyectoARSpace.jpg" alt="AR y DataViz">
+
+      </section>
+    </article>
+    <article id="proyectoDestacado">
+      <h2>PROYECTO DESTACADO</h2>
+      <p>arSpace es un Ambiente colaborativo para mejorar y monitorear la calidad del espacio público
+        a través de realidad aumentada y analítica visual. </p>
+
+
+      <iframe width="960" height="540" src="https://www.youtube.com/embed/gV6_u-MJ7Bo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+
+  </main>
+
+  <!--información de cierre-->
+  <footer id="piePaginaPrincipal">
+    <section id="formularioContacto">
+      <header>
+        <h2>CONTÁCTEME</h2>
+        <p>Si desea contactarme, por favor llene el siguiente formulario: </p>
+      </header>
+
+      <section id="formulario">
+        <form action="">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" placeholder="Su nombre y apellido">
+          <br>
+          <label for="correo">E-mail:</label>
+          <input type="text" id="correo" placeholder="Su Correo">
+          <br>
+          <label for="ciudad">Ciudad:</label>
+          <input type="text" id="ciudad" placeholder="Su ciudad de residencia">
+          <br>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+
+          <button type="submit"></button>
+
+        </form>
+
+      </section>
+    </section>
+    <section id="cierre">
+      <section id="copyright">
+        Daniel Salamanca contacto@danielsalamanca.com Bogotá, Colombia. Copyright
+      </section>
+      <section id="redesSociales">
+        <nav id="enlacesRedes">
+          <ul>
+            <li><a href="">facebook</a></li>
+            <li><a href="">twitter</a></li>
+            <li><a href="">instagram</a></li>
+          </ul>
+        </nav>
+      </section>
+    </section>
+
+  </footer>
+
+
+</body></html>

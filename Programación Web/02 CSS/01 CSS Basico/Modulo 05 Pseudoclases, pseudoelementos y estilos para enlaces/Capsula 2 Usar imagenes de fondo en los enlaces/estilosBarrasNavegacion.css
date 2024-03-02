@@ -1,0 +1,30 @@
+/*
+Colores azules de netzun
+azul claro: #3284EF;
+azul oscuro: #2768AF;
+*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+a#ejemploConFondo:link,
+a#ejemploConFondo:visited {
+  display: block;
+  clear: none;
+  float: left;
+  width: 350px;
+  height: 100px;
+  background-image: url(fondo.png);
+  color: white;
+  font-size: 30pt;
+  line-height: 100px;
+  padding-left: 50px;
+  text-decoration: none;
+
+}
+
+a#ejemploConFondo:hover {
+  background-position: 0px -100px; 
+}

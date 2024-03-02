@@ -1,0 +1,50 @@
+html {
+  font-size: 20pt;
+}
+
+body {
+  font-size: 20pt;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+section {
+  background-color: deepskyblue;
+  margin-bottom: 50px;
+}
+
+#papa {
+  width: 60%;
+}
+
+#medidasPorcentaje {
+  width: 50%;
+
+}
+
+#medidasvw {
+  width: 100vw;
+}
+
+#medidasvh {
+  width: 100vw;
+  height: 100vh;
+}
+
+#medidasEM {
+  width: 10em;
+}
+
+#medidasREM {
+  width: 10rem;
+}
+
+
+#medidasvminyvmax {
+  width: 10vmin;
+  height: 10vmax;
+
+}

@@ -1,0 +1,31 @@
+#amarillo {
+  width: 400px;
+  height: 200px;
+  background-color: yellow;
+
+  display: block;
+  clear: both;
+  float: left;
+}
+
+#azul {
+  width: 400px;
+  height: 100px;
+  background-color: blue;
+
+  display: block;
+  clear: both;
+  float: left;
+}
+
+#rojo {
+  width: 400px;
+  height: 100px;
+  background-color: red;
+
+  display: block;
+  clear: both;
+  float: left;
+
+
+}

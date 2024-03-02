@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formulario - Bootstrap</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <!-- FORMULARIO Y LOGIN CON BOOTSTRAP -->
+  <div class="container">
+    <h1>FORMULARIO CON BOOTSTRAP</h1>
+
+    <form class="mt-5 form-netzun">
+      <h2 class="display-6">Inscripción al curso de programación</h2>
+
+      <div class="row mt-3">
+        <div class="col-6">
+          <label for="nombre" class="form-label">Nombre:</label>
+          <input type="text" class="form-control" id="nombre">
+        </div>
+
+        <div class="col-6">
+          <label for="apellido" class="form-label">Apellidos:</label>
+          <input type="text" class="form-control" id="apellido">
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-6">
+          <label for="documento" class="form-label">DNI/C.E:</label>
+          <input type="text" class="form-control" id="documento">
+        </div>
+
+        <div class="col-6">
+          <label for="telefono" class="form-label">Telefono:</label>
+          <input type="text" class="form-control" id="telefono">
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-12">
+          <label class="form-label">Correo electrónico:</label>
+          <div class="input-group mb-3">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="Correo electrónico">
+          </div>
+          
+          <div id="emailDescripcion" class="form-text">
+            No compartiremos tu correo electrónico con personas ajenas
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-primary mt-3">Enviar</button>
+
+
+    </form>
+
+  </div>
+
+  <!-- ***************************************************************************************************** -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.img-item{
+   height: 200px;
+   /* width: max-content; */
+   width: 250px;      
+   cursor: pointer;
+
+}
+
+h5.text-center.mt-1{
+   cursor: pointer;
+}

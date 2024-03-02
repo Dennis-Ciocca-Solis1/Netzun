@@ -1,0 +1,7 @@
+#cajaSticky {
+  background-color: magenta;
+  height: 50px;
+
+  position: sticky;
+  top: 50px;
+}

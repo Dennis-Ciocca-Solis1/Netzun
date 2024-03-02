@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+
+}
+
+section {
+  width: 100%;
+  min-height: 600px;
+}
+
+#azul {
+  background-color: #3284EF;
+}
+
+#multiplesFondos {
+  /* los valores pertecenen a cada imagen dependiendo de que lado estén de la ',' */
+  background-color: #384253;
+  background-image: url(../imagenes/fondoFranjas.png), url(../imagenes/yo_sinFondo.png);
+  background-repeat: repeat-x, no-repeat;
+  background-position: top, bottom right;
+  background-size: 10px 300px, contain;
+  background-attachment: fixed, scroll;
+
+}

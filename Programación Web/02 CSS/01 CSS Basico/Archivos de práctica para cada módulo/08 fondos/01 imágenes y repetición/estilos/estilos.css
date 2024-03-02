@@ -1,0 +1,8 @@
+body {
+  /*  background: black url(../imagenes/Logos_Netzun.png) repeat-x;*/
+
+
+  background-image: url(../imagenes/diagonal2.png);
+  background-repeat: repeat;
+  background-color: #384253;
+}

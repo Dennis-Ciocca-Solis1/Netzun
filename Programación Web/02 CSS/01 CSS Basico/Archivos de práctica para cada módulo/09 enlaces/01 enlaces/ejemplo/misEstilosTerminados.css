@@ -1,0 +1,65 @@
+/*//////Pseudoclases de enlaces/////////*/
+
+a:link {}
+
+a:visited {}
+
+a:hover {}
+
+a:active {}
+
+
+/*//////Pseudoclases de listas/////////*/
+ul li {
+  background-color: black;
+  padding: 50px;
+  width: 50%
+}
+
+ul li:first-child {
+
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+ul li:last-child {
+
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+/*//////Pseudoclases para excluir/////////*/
+/*
+:not(p, body,
+  html) {
+  background-color: blue;
+}*/
+
+/*//////PseudoElementos de antes y después de un elemento/////////*/
+p::before {
+  content: "Al principio";
+  content: url(iconoNetzun.png);
+}
+
+p::after {
+  content: "Al final";
+  content: url(iconoNetzun.png);
+}
+
+/*//////PseudoElementos para listas y párrafos/////////*/
+ul li::marker {
+  color: #3284EF;
+  font-size: 30px;
+}
+
+/*
+p::first-letter {
+  color: #3284EF;
+  font-size: 55px;
+}
+*/
+
+::selection {
+  color: white;
+  background-color: #3284EF;
+}

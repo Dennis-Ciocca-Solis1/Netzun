@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">  
+   <title>Formularios en HTML</title>
+</head>
+<body>
+   <h1>Formularios en HTML</h1>
+   <form action="archivoQueProcesaInformacionEnServidor.php"
+   target="_self" method="post" autocomplete="on">
+      <p>un párrafo</p>
+      <label for="campoNombre">Nombre:</label>
+      <input type="text" id="campoNombre" name="campoNombre">
+      <input type="submit" value="Enviar">
+   </form>
+
+   <!-- atributos de la etiqueta 'form' -->
+   <!--
+   action: define que archivo del servidor se encarga de procesar la información enviada
+   name:
+   autocomplete: nos permite reutilizar datos que ya se hayan escrito anteriormente en el formulario
+   enctype:
+   method: modo en que envía la información (get/post)
+   novalidate:
+   rel:
+   target: abre una pantalla después de procesar(enviar) la información 
+   -->
+
+   <!-- ------------------------------------------------------------------------------------------- -->
+   <!-- Elementos de los formularios -->
+   <!-- ir a elementosForms.html -->
+
+</body>
+</html>

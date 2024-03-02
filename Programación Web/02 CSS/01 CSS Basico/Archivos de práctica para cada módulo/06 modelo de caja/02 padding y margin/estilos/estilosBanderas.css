@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+#banderaColombia {
+  width: 100%;
+  min-height: 400px;
+  display: block;
+  clear: both;
+  margin: 0 auto;
+
+
+  max-width: 1280px;
+}
+
+#banderaPeru {
+  width: 100%;
+  min-height: 400px;
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+#banderaPeru section {
+  padding: 2%;
+
+}
+
+#amarillo {
+  width: 80%;
+  min-height: 200px;
+  background-color: yellow;
+
+  display: block;
+  clear: both;
+  float: left;
+
+  padding: 10%;
+}
+
+#azul {
+  width: 80%;
+  min-height: 100px;
+  background-color: blue;
+
+  display: block;
+  clear: both;
+  float: left;
+  padding: 5% 10%;
+}
+
+#rojo {
+  width: 80%;
+  min-height: 100px;
+  background-color: red;
+
+  display: block;
+  clear: both;
+  float: left;
+
+  padding: 5% 15% 10% 5%;
+
+
+}
+
+
+#rojoIzquierdo {
+  width: 29.3333%;
+  min-height: 400px;
+  background-color: red;
+
+  display: block;
+  clear: none;
+  float: left;
+}
+
+#blanco {
+  width: 29.3333%;
+  min-height: 400px;
+  background-color: white;
+
+  display: block;
+  clear: none;
+  float: left;
+}
+
+#rojoDerecho {
+  width: 29.3333%;
+  min-height: 400px;
+  background-color: red;
+
+  display: block;
+  clear: none;
+  float: left;
+}
